@@ -1,0 +1,15 @@
+spring:
+    datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/dto
+      username: postgres
+      password: rootroot
+
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+
+server:
+  error:
+    include-stacktrace: always
