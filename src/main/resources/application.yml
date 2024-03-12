@@ -13,3 +13,10 @@ spring:
 server:
   error:
     include-stacktrace: always
+
+
+
+app:
+  jwt:
+    secret:
+      Nurislam&java12
