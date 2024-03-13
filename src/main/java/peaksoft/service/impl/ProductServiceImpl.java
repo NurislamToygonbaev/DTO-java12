@@ -33,7 +33,7 @@ public class ProductServiceImpl implements ProductService {
                 .orElseThrow(() ->
                         new NoSuchElementException("User with id: " + loginID + " not found"));
         if (!user.getRole().equals(Role.ADMIN)){
-            throw new RuntimeException("Forbi76765dden 403");
+            throw new RuntimeException("Forbidden 403");
         }
     }
 
